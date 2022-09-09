@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<TextView>(R.id.text).setOnClickListener {
            val dialogFragment = MyDialogFragment()
-            dialogFragment.show(supportFragmentManager,"aa")
+            dialogFragment.show(supportFragmentManager,"a")
         }
 
     }
